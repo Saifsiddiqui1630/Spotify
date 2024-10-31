@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for Everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons/fav logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+       
+
+        <div class="left rounded">
+            <div class="close-icon">
+                <img src="icons/close.svg" alt="">
+            </div>
+            <div class="home p1 rounded bg-grey">
+                <img src="icons/Spotify_logo_with_text.svg" alt="Logo Not Availabe">
+                <div class="home-butt    ">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </div>
+                <div class="search-butt ">
+                    <i class="fa-solid fa-search"></i>
+                    Search
+                </div>
+            </div>
+            <div class="library rounded bg-grey m1">
+                <h3 class="lib-heading">
+                    <div class="flex-center">
+                        <img class="invert" src="icons/playlist.svg" alt="logo not Availabe">  Your Library
+                    </div>
+                    <i class="fa fa-plus"></i>
+                </h3>
+
+                <div class="songList">
+                    <ul>
+                       
+                    </ul>
+                </div>
+                
+                <div class="footer bg-grey">
+                    
+                        <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                        <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                                  
+                </div>
+            </div>
+            
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <nav>
+                    <img class="hamburger" src="icons/hamburger.svg"  alt="">
+                    <div class="arrows">
+                        <i class="fa fa-angle-left"></i>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <div class="log-buttons">
+                        <button class="signup">
+                            Sign up
+                        </button>
+                        <button class="login">
+                            Login
+                        </button>
+                    </div>
+                </nav>
+            </div>
+            <div class="spotify-playlist ">
+                <h2>Spotify Playlists</h2>
+                <div class="card-container">
+                   
+                </div>
+                
+            </div>
+            <div class="playbar ">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="detail-bar">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="playbarImages">
+                        <img  id="previous" src="icons/prev.svg" alt="">
+                        <img id="play" src="icons/playsong.svg " alt="">
+                        <img  id="next" src="icons/next.svg" alt="">
+                    </div>
+                    <div class="time-vol">
+                        <div class="songtime">
+    
+                        </div>
+                        <div class="volume">
+                            <img class="volume-icon" src="icons/volume.svg" alt="">
+                            <div class="range">
+                                <input class="range-input" type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
