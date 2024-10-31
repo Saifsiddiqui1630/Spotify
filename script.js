@@ -137,7 +137,7 @@ async function displayAlbums(){
 
 
 async function main() {
-  await getSongs("songs/ncs");
+  await getSongs("songs/Yes I Do");
   playMusic(songs[0], true);
     displayAlbums();
     
